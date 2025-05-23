@@ -1,67 +1,87 @@
-body {
-  font-family: Arial, sans-serif;
+* {
   margin: 0;
   padding: 0;
-  line-height: 1.6;
-  background-color: #f9f9f9;
-  color: #333;
+  box-sizing: border-box;
 }
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 2rem;
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
   text-align: center;
 }
 
-section {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
+.main-header {
+  background-color: #007bff;
+  color: white;
+  padding: 60px 20px;
 }
 
-h2 {
-  color: #333;
-  border-bottom: 2px solid #ccc;
-  padding-bottom: 0.5rem;
+.main-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
 }
 
-img {
-  display: block;
-  margin: 1rem auto;
-  height: 200px;
-   width: 200px;
-   border: px solid black;
-   border-radius:50% ;
+.main-header p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-ul li {
-  background: #eee;
-  margin: 0.5rem 0;
-  padding: 0.5rem;
-  border-radius: 5px;
-}
-
-.project {
-  margin: 1rem 0;
-}
-a {
-  color: #0066cc;
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: white;
+  color: #007bff;
+  font-weight: bold;
   text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
 }
 
-a:hover {
-  text-decoration: underline;
+.btn:hover {
+  background-color: #e2e6ea;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.feature {
+  flex: 1 1 300px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 8px;
+  background: #f0f0f0;
 }
 
 footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 1rem;
+  background: #222;
+  color: #ccc;
+  padding: 20px;
+  font-size: 0.9rem;
 }
+.navbar{
+    height: 60px;
+    background-color:#222;
+}
+ button{
+   background-color: blue;
+   color: white;
+ }
+ #logo {
+    color: skyblue;
+    font-size: 30px;
 
+
+ }
+ a{
+    margin-right: 200px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+ }
